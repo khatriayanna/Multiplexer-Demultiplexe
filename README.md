@@ -1,12 +1,12 @@
-# 🔀 Multiplexer & Demultiplexer in Verilog
+#  Multiplexer & Demultiplexer in Verilog
 
-## 📘 Overview
+##  Overview
 This project demonstrates the design and simulation of **4:1** and **8:1 Multiplexers** using **Behavioral** and **Structural (Hierarchical)** modeling in Verilog HDL.  
 A **1:8 Demultiplexer** is also implemented to complement the study of data routing in digital systems.
 
 ---
 
-## ⚙️ Features
+##  Features
 - **4:1 MUX (Behavioral Modeling)**
 - **8:1 MUX (Structural Modeling using 2:1 MUX hierarchy)**
 - **1:8 DEMUX**
@@ -15,7 +15,7 @@ A **1:8 Demultiplexer** is also implemented to complement the study of data rout
 
 ---
 
-## 🧠 Theory
+##  Theory
 
 ### ▶ Multiplexer (MUX)
 A multiplexer selects one of several input signals and forwards it to a single output line based on select inputs.
@@ -30,7 +30,7 @@ A demultiplexer takes a single input and routes it to one of several outputs bas
 
 ---
 
-## 🧩 Design Methodology
+##  Design Methodology
 
 | Circuit | Modeling Style | Description |
 |----------|----------------|--------------|
@@ -40,24 +40,21 @@ A demultiplexer takes a single input and routes it to one of several outputs bas
 
 ---
 
-## 🧪 Simulation Results
+##  Simulation Results
 
-### ✅ Waveforms
+###  Waveforms
 **4:1 Multiplexer Simulation**
 
-![MUX4 Waveform](../sim/waveform_mux4.png)
 
 **8:1 Multiplexer Simulation**
 
-![MUX8 Waveform](../sim/waveform_mux8.png)
 
 **1:8 Demultiplexer Simulation**
 
-![DEMUX Waveform](../sim/waveform_demux.png)
 
 ---
 
-## 🔩 Synthesis & Analysis
+## Synthesis & Analysis
 
 ### Example Vivado Report
 | Module | LUTs | I/O Ports | Delay (ns) |
@@ -71,7 +68,7 @@ A demultiplexer takes a single input and routes it to one of several outputs bas
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 - **HDL:** Verilog  
 - **Simulator:** ModelSim / Vivado  
 - **Waveform Viewer:** GTKWave  
@@ -79,7 +76,7 @@ A demultiplexer takes a single input and routes it to one of several outputs bas
 
 ---
 
-## 📜 Files
+##  Files
 | Folder | Description |
 |---------|-------------|
 | `/src` | Verilog source codes (`mux4to1.v`, `mux8to1.v`, `demux1to8.v`) |
@@ -89,12 +86,12 @@ A demultiplexer takes a single input and routes it to one of several outputs bas
 
 ---
 
-## 📚 Learning Outcome
+##  Learning Outcome
 - Understanding of **data selection & routing** in digital logic  
 - Implementation of **hierarchical design** in Verilog  
 - Practice in **simulation and synthesis workflows**
 
 ---
 
-**🧩 Designed by:** *Ayanna Khatri*  
+** Designed by:** *Ayanna Khatri*  
 **Field:** *VLSI / Digital System Design*
